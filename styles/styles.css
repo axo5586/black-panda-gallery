@@ -23,7 +23,22 @@ body
 {
     font-size: 18px;
     text-align: center;
+}
 
+.content-center
+{
+    text-align: center;
+}
+
+.home-text
+{
+    margin-top: 4rem;
+    border: 1px solid black;
+}
+
+.footer
+{
+    margin-top: 4rem;
 }
 
 .description
@@ -34,7 +49,7 @@ body
 {
     background-color: #cececeb2;
     padding: 1rem;
-    margin-bottom: 1rem;
+    overflow-y: hidden;
 }
 
 .category-title

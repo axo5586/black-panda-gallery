@@ -1,0 +1,62 @@
+
+body
+{
+    background-color: #f5f5f5b2;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.welcome-text
+{
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.carousel
+{
+    width:40%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #dbdbdbb2;
+}
+
+.carousel-caption
+{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+#navbar
+{
+    padding: 1rem;
+    font-size: 2rem;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+#navbar a {
+    font-size: 2rem;
+    text-decoration: none;
+
+}
+
+#navbar a:hover {
+    background-color: #3e86d9;
+    color: black;
+}
+
+#navbar a.active {
+    background-color: #3e86d9;
+    color: black;
+  }
+
+#navbar-last {
+    
+}

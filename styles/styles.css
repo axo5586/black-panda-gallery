@@ -7,10 +7,93 @@ body
 
 .welcome-text
 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-style: italic;
     font-weight: bolder;
     text-decoration: underline;
+}
+
+.about-text
+{
+    font-size: 18px;
+    text-align: center;
+}
+
+.img-text
+{
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.description
+{
+    padding: 2rem;
+}
+.main-body
+{
+    background-color: #cececeb2;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.category-title
+{
+    font-size: 3rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.img-art
+{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.img-right
+{
+    text-align: right;
+    float: right;
+}
+
+.no-decoration
+{
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+}
+
+.art-images
+{
+    text-align: center;
+    padding: 1rem;
+}
+
+.contact-table
+{
+    margin: 1rem;
+}
+
+.details
+{
+    padding: 1rem;
+    border: 1px dotted black;
+}
+
+.details td
+{
+    padding: 1rem;
+    text-align: center;
+}
+.details th 
+{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.td-alt
+{
+    background-color: #a09f9fb2;
 }
 
 .carousel-inner img {
@@ -22,7 +105,7 @@ body
     width:40%;
     margin: 0 auto;
     text-align: center;
-    background-color: #dbdbdbb2;
+    background-color: #a19f9fb2;
 }
 
 .carousel-caption
@@ -38,23 +121,28 @@ body
     font-size: 2rem;
     overflow: hidden;
     text-align: center;
+    border: 1px solid black;
+    margin-bottom: 2rem;
     
 }
 
 #navbar a {
     font-size: 2rem;
     text-decoration: none;
+    color: black;
+    margin: 3rem;
+
 
 }
 
 #navbar a:hover {
-    background-color: #3e86d9;
-    color: black;
+    background-color: #575757;
+    color: white;
 }
 
 #navbar a.active {
-    background-color: #3e86d9;
-    color: black;
+    background-color: #575757;
+    color: white;
   }
 
 #navbar-last {

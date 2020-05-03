@@ -40,6 +40,11 @@ body
     margin-bottom: 1rem;
 }
 
+.margins-top
+{
+    margin-top: 1rem;
+}
+
 .home-text
 {
     margin-top: 2rem;
